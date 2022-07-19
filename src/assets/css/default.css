@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html, body, #root, #main, #navigation, #home{
+    height: 100%;
+}
+#header{
+    position: absolute;
+    width: 100%;
+    height: 64px;
+}
+#navigation{
+    position: absolute;
+    width: 300px;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding-top: 64px;
+    padding-left: 300px;
+    box-sizing: border-box;
+}

@@ -1,13 +1,19 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Header from "@/layouts/Header";
 import Router from "@/pages/Router";
+import Navigation from "@/layouts/Navigation";
+
+import '@/assets/css/default.css'
 
 function App () {
     return (
-        <div id="name">
-            <Header></Header>
-            <Router></Router>
-        </div>
+        <Fragment>
+            <Header />
+            <Navigation />
+            <div id="main">
+                <Router />
+            </div>
+        </Fragment>
     )
 }
 
