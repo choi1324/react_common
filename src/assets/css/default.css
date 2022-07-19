@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-html, body, #root, #main, #navigation, #home{
+html, body, #root, #main, #navigation, #home, img{
     height: 100%;
 }
 #header{
