@@ -6,7 +6,7 @@ const HEADER_TITLE = '헤더 타이틀'
 function Header() {
     return (
         <div id="header">
-            <img src={react_ico} />
+            <img className="content" src={react_ico} />
             <strong>{HEADER_TITLE}</strong>
         </div>
     )

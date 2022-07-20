@@ -6,6 +6,8 @@ function Navigation() {
     return (
         <div id="navigation">
             <strong>{NAVIGATION_TITLE}</strong>
+            <span><a href="/">메인</a></span>
+            <span><a href="/common">공통</a></span>
         </div>
     )
 }
