@@ -1,0 +1,21 @@
+.alert {
+    margin: auto;
+    padding: 16px;
+    width: fit-content;
+    height: 24px;
+    display: flex;
+    border-radius: 4px;
+}
+
+.alert img{
+    margin-right: 16px;
+}
+
+.alert span{
+    color: #fff;
+    font-size: 16px;
+}
+
+#popupAlert{
+    height: 56px;
+}

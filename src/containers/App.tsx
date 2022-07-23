@@ -4,10 +4,12 @@ import Router from "@/pages/Router";
 import Navigation from "@/layouts/Navigation";
 
 import '@/assets/css/default.css'
+import Popup from "@/layouts/Popup";
 
 function App () {
     return (
         <Fragment>
+            <Popup/>
             <Header />
             <Navigation />
             <div id="main">
